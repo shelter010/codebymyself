@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e11de495-e777-4030-a570-bfbea4bddcdb" name="master" url="http://192.168.100.10">
+        <fileTransfer accessType="SFTP" host="192.168.100.10" port="22" sshConfigId="355523dc-398a-4c86-bfc4-ce4966b4ee19" sshConfig="master">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="18ddca4e-8ae8-455b-994b-cd43e208788f" name="slave1" url="http://192.168.100.11">
+        <fileTransfer accessType="SFTP" host="192.168.100.10" port="22" sshConfigId="355523dc-398a-4c86-bfc4-ce4966b4ee19" sshConfig="master">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="31e6c410-15e0-4332-ac6b-3642b569e07b" name="slave2" url="http://192.168.100.12">
+        <fileTransfer accessType="SFTP" host="192.168.100.10" port="22" sshConfigId="355523dc-398a-4c86-bfc4-ce4966b4ee19" sshConfig="master">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
