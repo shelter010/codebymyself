@@ -27,6 +27,5 @@ object Hello {
     wordCountArr.foreach(println)
     //5 关闭SparkContext
     sc.stop()
-
   }
 }

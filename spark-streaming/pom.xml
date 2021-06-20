@@ -11,11 +11,18 @@
 
     <artifactId>spark-streaming</artifactId>
 <dependencies>
+<!--    <dependency>-->
+<!--        <groupId>org.apache.spark</groupId>-->
+<!--        <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>-->
+<!--        <version>2.1.1</version>-->
+<!--    </dependency>-->
+<!--    -->
     <dependency>
         <groupId>org.apache.spark</groupId>
-        <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
-        <version>2.1.1</version>
+        <artifactId>spark-streaming-kafka-0-10_2.12</artifactId>
+        <version>3.0.0</version>
     </dependency>
+
 
 </dependencies>
 

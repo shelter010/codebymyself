@@ -23,7 +23,8 @@ object PracticeDemo {
      */
     val conf = new SparkConf().setAppName("PracticeDemo").setMaster("local[2]")
     val sc = new SparkContext(conf)
-    val rdd1 = sc.textFile("/Users/mac/Downloads/download from mac/download from baiduwangpan/15-spark/agent.log")
+    //val rdd1 = sc.textFile("/Users/mac/Downloads/download from mac/download from baiduwangpan/15-spark/agent.log")
+    val rdd1 = sc.textFile("/Users/mac/Downloads/personal/agent.log")
     //    val provinceAdOne = rdd1.map(line => {
     //      val splits = line.split(" ")
     //      ((splits(1), splits(4)), 1)
