@@ -33,6 +33,7 @@ object Test4 {
     res
   }
 
+
   def maxSize(arr: Array[Array[String]]): Int = {
     // 遍历出每个1维数组 求出size
     // 和下一个数组长度比较 把较大的值付给变量 temp_value
