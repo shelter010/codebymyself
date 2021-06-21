@@ -6,5 +6,7 @@ package com.com.atguigu.test
  * @Version 1.0
  */
 object Test5 {
-
+  def main(args: Array[String]): Unit = {
+    println("这是测试分支的代码部分 测试分支的名字是hpfHot")
+  }
 }
